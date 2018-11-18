@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Merriweather|PT+Serif|Playfair+Display");
+
+body {
+}
+
+.header {
+  font-family: "Playfair Display", serif;
+  font-size: 5vh;
+}
+
+.what-we-do {
+  font-weight: 700;
+}
+
+.fas {
+  font-size: 2em;
+  color: #ff9800;
+}
+
+.container {
+  margin-top: 2%;
+}
+
+.what-we-do-par {
+  color: gray;
+}
