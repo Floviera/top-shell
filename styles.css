@@ -60,7 +60,7 @@ body {
   width: 80vw;
   position: relative;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 5%;
 }
 
 .panel {
@@ -217,6 +217,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #555555;
   font-weight: 600;
+  margin-top: 5%;
 }
 
 * {
@@ -254,8 +255,8 @@ body {
   -ms-justify-content: center;
   -o-justify-content: center;
   justify-content: center;
-  margin-top: 10%;
-  margin-bottom: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .container-for-prices .pricing__table {
   display: block;
@@ -397,4 +398,8 @@ body {
 
 .navbar {
   background: #8d00ff;
+}
+
+#contact-form-container {
+  margin: 0 auto;
 }
