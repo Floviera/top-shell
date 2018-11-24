@@ -48,7 +48,6 @@ body {
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-  font-family: "europa", sans-serif;
   color: #555;
 }
 
@@ -209,9 +208,7 @@ body {
   min-width: 100%;
   height: 100%;
 }
-
-#projects,
-#prices {
+h5 {
   text-align: center;
   font-size: 35px;
   font-family: "Roboto", sans-serif;
@@ -257,6 +254,7 @@ body {
   justify-content: center;
   margin-top: 5%;
   margin-bottom: 5%;
+  font-family: "europa", sans-serif;
 }
 .container-for-prices .pricing__table {
   display: block;
@@ -397,9 +395,16 @@ body {
 }
 
 .navbar {
-  background: #8d00ff;
+  background: #54168782;
 }
 
 #contact-form-container {
   margin: 0 auto;
+}
+
+#icons {
+  transition: all 2s;
+}
+#icons:hover {
+  transform: rotate(25deg);
 }
